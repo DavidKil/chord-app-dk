@@ -254,7 +254,9 @@ componentDidMount (){
       }).then(function(json) {
           let song = json.song;
           this.load(song)
-      });
+      }).catch(function(error) {
+       console.log('There has been a problem with your fetch operation: ', error.message);
+      });;
     */
     let song = songData.song;
     //console.log(this)
