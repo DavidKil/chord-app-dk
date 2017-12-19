@@ -1,0 +1,56 @@
+.app {
+  margin: auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center; }
+
+.section {
+  display: inline-block;
+  max-width: 480px;
+  margin: 20px;
+  text-align: left;
+  vertical-align: top; }
+
+.player-wrapper {
+  width: 480px;
+  height: 270px; }
+
+.chord-img {
+  height: 100px;
+  margin: 0 100px; }
+
+.chord-img-next {
+  height: 100px;
+  opacity: 0.5; }
+
+.chord-img-container {
+  height: 100px; }
+
+.chord-progress {
+  width: 200px;
+  -webkit-appearance: none;
+  appearance: none; }
+
+.chord-progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; }
+
+progress {
+  -webkit-appearance: none;
+  appearance: none; }
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; }
+
+.react-player {
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.1); }
+
+.faded {
+  color: rgba(0, 0, 0, 0.5); }
+
+.footer {
+  margin: 20px; }
